@@ -1,24 +1,25 @@
 #тут пишем команду
-import turtle
-def romb():
-    import turtle
-    turtle.down()
-    turtle.forward(150)
-    turtle.left(60)
-    turtle.forward(150)
-    turtle.left(120)
-    turtle.forward(150)
-    turtle.left(60)
-    turtle.forward(150)
-    turtle.mainloop()
 from turtle import *
+#Yana-romb
+def romb():
+
+    down()
+    forward(150)
+    left(60)
+    forward(150)
+    left(120)
+    forward(150)
+    left(60)
+    forward(150)
+    mainloop()
+
 def square():
     turtle.down()
     for _ in range(4):
-        turtle.forward(150)
-        turtle.right(90)
-    turtle.up()
-    turtle.mainloop()
+        forward(150)
+        right(90)
+    up()
+    mainloop()
 def tria60():
     down()
     right(30)
@@ -35,8 +36,7 @@ def tria60big():
         right(120)
     up()
     mainloop()
-turtle.right(30)
-tria60big()
+romb()
 # Grate
 # Ok !turtle.up()
 #     turtle.goto(-400,-300)
