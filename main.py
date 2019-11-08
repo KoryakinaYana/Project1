@@ -13,10 +13,10 @@ def romb():
     forward(150)
     mainloop()
 
-def square():
+def square(a):
     turtle.down()
     for _ in range(4):
-        forward(150)
+        forward(a)
         right(90)
     up()
     mainloop()
