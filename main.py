@@ -1,6 +1,7 @@
-#тут пишем команду
 from turtle import *
-#Yana-romb
+#Yana-def(romb)
+#Masha-def(tria)
+#Sofia-def(square)
 def romb():
 
     down()
